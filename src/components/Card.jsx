@@ -4,7 +4,7 @@ import Right from './sub_component/Right'
 
 function Card() {
   return (
-    <div>
+    <div className='md:flex flex-auto'>
         <Left />
         <Right />
     </div>

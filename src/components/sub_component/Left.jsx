@@ -4,8 +4,8 @@ import LeftImage from './image-product-desktop.jpg'
 
 function Left() {
   return (
-    <div className=''>
-        <img src={LeftImage} alt="left" />
+    <div className='w-60'>
+        <img src={LeftImage} alt="left" className='rounded-md' />
     </div>
   )
 }
